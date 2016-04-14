@@ -1,0 +1,10 @@
+<?xml version="1.0" encoding="utf-8" ?>
+<quest series="rev" id="rev:300" proto="xmlquest-2.0">
+    <name>Arithmetics</name>
+    <task type="html" lang="en"><a href="static/arithmetics">Find the key</a></task>
+    <task type="html" lang="ru"><a href="static/arithmetics">Найдите ключ</a></task>
+    <checker strict="yes">
+        <solution case="insensitive">semicolon</solution>
+        <solution case="sensitive">ZaBoRcHiCk</solution>
+    </checker>
+</quest>
