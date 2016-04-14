@@ -1,0 +1,31 @@
+hello <world>
+
+text huvud``
+<
+    aks answer# :
+    <
+        sepdek sep
+        Kvardek kvin
+        kvar
+        dektri
+        dekkvar
+        sepdek
+        sepdek tri
+        ses
+        sepdek
+        cent dudek tri
+        Kvardek kvin
+        sesdek unu
+        dudek sep
+        tridek unu
+    >
+
+    grand N : panjang `answer`
+
+    rotty
+    `grand i : nulo N ipp`
+    <
+        a-qua `i` i@answer : `i — unu`@answer x i x i@answer
+        yaaa ~L i@answer
+    >
+>

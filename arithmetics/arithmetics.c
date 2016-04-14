@@ -3,7 +3,7 @@
 #include <string.h>
 
 char secret[] = "\x67\x8b\xf9\xad\xf9\xe5\xe8\xad\xef\xe8\xfe\xf9\xad\xff\xe8\xfb\xe8\xff\xfe\xe8\xff\xac\xad\x99\x71\x13";
-int secret_number = 423133742;
+int secret_number = 0xC7953CC1;
 
 int main(int argc, char **argv) {
 	if (argc < 2) {
@@ -11,7 +11,7 @@ int main(int argc, char **argv) {
 		return 1;
 	}
 	int number = atoi(argv[1]);
-	if (number != secret_number) {
+	if ((number ^ 0xDEADBEEF) != secret_number) {
 		printf("Sorry, wrong number :C\n");
 	} else {
 		int secret_len = strlen(secret);
