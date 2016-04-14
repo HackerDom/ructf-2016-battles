@@ -4,7 +4,6 @@
     <task type="html" lang="en"><a href="static/arithmetics">Find the key</a></task>
     <task type="html" lang="ru"><a href="static/arithmetics">Найдите ключ</a></task>
     <checker strict="yes">
-        <solution case="insensitive">semicolon</solution>
-        <solution case="sensitive">ZaBoRcHiCk</solution>
+        <solution case="sensitive">913a5f0b-43ca-491b-991f-792bad3ba283</solution>
     </checker>
 </quest>
