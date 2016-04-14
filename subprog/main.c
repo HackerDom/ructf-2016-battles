@@ -1,7 +1,5 @@
 #include <stdio.h>
 
-#define LENGTH(X) (sizeof(X)/sizeof(*X))
-
 void main() {
     char answer[] = {
         77, 45, 4, 13,
@@ -10,13 +8,7 @@ void main() {
         27, 31
     };
 
-    size_t N = LENGTH(answer);
-
-    for (size_t i = 0; i < N; ++i) {
-        char tmp = answer[i];
-        answer[i] = answer[(N - 1) - i];
-        answer[(N - 1) - i] = tmp;
-    }
+    size_t N = sizeof(answer);
 
     for (size_t i = 0; i < N; ++i) {
         if (i > 0)
